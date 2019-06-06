@@ -1,0 +1,90 @@
+Setting GPU: ['0', '1', '2', '3', '4', '5']
+=================FLAGS==================
+update_bs_interval: 101
+target_acc: 92.0
+init_batch_size: 128
+data_root: /tmp/public_dataset/pytorch/
+test_interval: 1
+seed: 117
+logdir: mnist/log/default
+increasing: True
+beta: 0.9
+decreasing_lr: 80,120
+momentum: 0.9
+max_batch_size: 512
+model: logistic
+epochs: 1000
+ngpu: 6
+min_batch_size: 2
+schedule: de
+lr: 0.01
+multi: 1.0
+log_interval: 100
+gpu: ['0', '1', '2', '3', '4', '5']
+wd: 0.0001
+smoothing_weight: 0.8
+========================================
+Sequential(
+  (out): Linear(in_features=784, out_features=10, bias=True)
+)
+steps: 101, batchsize: 128, data: 12928, loss: 0.3455/0.4691, Accuracy  89.89%/25.98%
+stats_old = 0.0000, stats_new = 0.0001
+steps: 202, batchsize: 128, data: 25856, loss: 0.3152/0.4383, Accuracy  91.19%/39.02%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 303, batchsize: 128, data: 38784, loss: 0.2974/0.4101, Accuracy  91.39%/49.49%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 404, batchsize: 133, data: 52217, loss: 0.2978/0.3877, Accuracy  91.45%/57.89%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 505, batchsize: 133, data: 65650, loss: 0.2961/0.3694, Accuracy  91.65%/64.64%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 606, batchsize: 135, data: 79285, loss: 0.2938/0.3543, Accuracy  91.60%/70.03%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 707, batchsize: 135, data: 92920, loss: 0.2844/0.3403, Accuracy  91.93%/74.41%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 808, batchsize: 135, data: 106555, loss: 0.2942/0.3311, Accuracy  91.49%/77.83%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 909, batchsize: 137, data: 120392, loss: 0.2979/0.3244, Accuracy  91.74%/80.61%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1010, batchsize: 137, data: 134229, loss: 0.2887/0.3173, Accuracy  91.79%/82.85%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1111, batchsize: 137, data: 148066, loss: 0.2833/0.3105, Accuracy  92.08%/84.69%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1212, batchsize: 137, data: 161903, loss: 0.2857/0.3055, Accuracy  91.93%/86.14%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1313, batchsize: 138, data: 175841, loss: 0.2855/0.3015, Accuracy  92.11%/87.33%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1414, batchsize: 141, data: 190082, loss: 0.2857/0.2984, Accuracy  91.97%/88.26%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1515, batchsize: 142, data: 204424, loss: 0.2859/0.2959, Accuracy  92.02%/89.01%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1616, batchsize: 142, data: 218766, loss: 0.2788/0.2925, Accuracy  92.11%/89.63%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1717, batchsize: 144, data: 233310, loss: 0.2793/0.2898, Accuracy  92.25%/90.16%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1818, batchsize: 144, data: 247854, loss: 0.2790/0.2877, Accuracy  92.05%/90.53%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 1919, batchsize: 146, data: 262600, loss: 0.2836/0.2869, Accuracy  92.11%/90.85%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2020, batchsize: 146, data: 277346, loss: 0.2869/0.2869, Accuracy  91.86%/91.05%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2121, batchsize: 146, data: 292092, loss: 0.2907/0.2876, Accuracy  91.82%/91.21%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2222, batchsize: 146, data: 306838, loss: 0.2810/0.2863, Accuracy  91.91%/91.35%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2323, batchsize: 148, data: 321786, loss: 0.2813/0.2853, Accuracy  91.93%/91.46%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2424, batchsize: 148, data: 336734, loss: 0.2822/0.2847, Accuracy  92.14%/91.60%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2525, batchsize: 151, data: 351985, loss: 0.2820/0.2842, Accuracy  92.02%/91.68%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2626, batchsize: 152, data: 367337, loss: 0.2805/0.2834, Accuracy  91.82%/91.71%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2727, batchsize: 152, data: 382689, loss: 0.2723/0.2812, Accuracy  92.33%/91.83%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2828, batchsize: 154, data: 398243, loss: 0.2794/0.2808, Accuracy  92.12%/91.89%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 2929, batchsize: 156, data: 413999, loss: 0.2720/0.2791, Accuracy  92.34%/91.98%
+stats_old = 0.0001, stats_new = 0.0001
+steps: 3030, batchsize: 156, data: 429755, loss: 0.2764/0.2785, Accuracy  92.15%/92.01%
+Training ends, steps: 3030, average_batchsize: 141.83, data: 429755
+Total Elapse: 172.66, Best Result: 0.000%
